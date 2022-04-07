@@ -1,4 +1,4 @@
-import {Pokemon} from "./pokemon";
+import {Pokemon} from "./pokemonElectric";
 import {PokemonInterface, PokemonsObjectsCreator} from "./pokemonsObjectsCreator";
 
 /**
