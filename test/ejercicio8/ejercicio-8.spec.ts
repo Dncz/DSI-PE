@@ -1,6 +1,5 @@
 import 'mocha';
 import {expect} from 'chai';
-// import {PokemonsObjectsCreator} from '../../src/ejercicio8/pokemonsObjectsCreator';
 import {ElextricPokemonCreator} from '../../src/ejercicio8/elextricPokemonCreator';
 
 describe( 'Test de ElextricPokemonCreator', () => {
