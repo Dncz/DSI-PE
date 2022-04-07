@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {add, substract} from '../src/index';
+import {add, substract} from '../../src/index';
 
 describe('add function tests', () => {
   it('add(1, 8) returns value 9', () => {
