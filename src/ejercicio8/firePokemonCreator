@@ -1,4 +1,4 @@
-import {Pokemon} from "./pokemon";
+import {PokemonFire} from "./pokemonfire";
 import {PokemonInterface, PokemonsObjectsCreator} from "./pokemonsObjectsCreator";
 
 /**
@@ -24,6 +24,6 @@ export class FirePokemonCreator extends PokemonsObjectsCreator {
    * @returns {PokemonInterface}
    */
   public factoryMethod(): PokemonInterface {
-    return new Pokemon(this.nombre, this.tipo, this.ataque, this.defensa, this.velocidad, this.vida, this.Hp);
+    return new PokemonFire(this.nombre, this.tipo, this.ataque, this.defensa, this.velocidad, this.vida, this.Hp);
   }
 }

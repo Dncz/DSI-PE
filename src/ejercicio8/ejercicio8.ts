@@ -1,5 +1,6 @@
 import {ElextricPokemonCreator} from "./elextricPokemonCreator";
 import {PokemonsObjectsCreator} from "./pokemonsObjectsCreator";
+import {FirePokemonCreator} from "./fire";
 
 /**
  * función cleinte
@@ -10,4 +11,4 @@ export function clientCode(pokemonCreator: PokemonsObjectsCreator) {
 }
 
 clientCode(new ElextricPokemonCreator('Pikachu', 'eléctrico', 40, 78, 71, 90, 35));
-// clientCode(new CircleCreator('BlueCircle', 'blue', 7));
+clientCode(new FirePokemonCreator('BlueCircle', 'blue', 7));
